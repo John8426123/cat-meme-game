@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./node_modules/.bin/tsc:*)",
+      "Bash(node node_modules/typescript/bin/tsc:*)",
+      "Bash(ls:*)",
+      "Bash(ffprobe:*)",
+      "Bash(for f in D:/code/meme/public/*.mp4)",
+      "Bash(do echo \"=== $f ===\")",
+      "Bash(done)",
+      "Bash(ffmpeg:*)",
+      "Bash(du:*)"
+    ]
+  }
+}
